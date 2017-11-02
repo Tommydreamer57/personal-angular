@@ -40,7 +40,7 @@ gulp.task('scss-bundle', () => {
 
 // WATCH TASK =======================================
 gulp.task('watch', () => {
-    gulp.watch(paths.jsSrc, ['js-bundle']);
+    // gulp.watch(paths.jsSrc, ['js-bundle']);
     gulp.watch(paths.scssSrc, ['scss-bundle']);
 });
 

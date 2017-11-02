@@ -7,18 +7,23 @@
 /**ANIMATIONS**/
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 @import url("https://fonts.googleapis.com/css?family=Hind");
+ui-view {
+  width: 100%; }
+
 .app {
   background: #171717;
   min-height: 100vw;
   display: flex;
   flex-direction: column;
-  padding: 3rem 15vw; }
+  padding: 3rem 25vw; }
   .app .main {
+    width: 100%;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    justify-content: stretch;
+    align-items: stretch;
+    align-content: stretch; }
 
 .navbar * {
   font-family: Ubuntu;
@@ -56,13 +61,47 @@
   width: 100vw; }
 
 /**MAIN CLASSES**/
-.box {
+.home {
+  width: 100%; }
+
+.wrapper, .title-wrapper, .subtitle-wrapper, .text-wrapper, .section-wrapper, .post-tile-wrapper, .comment-wrapper {
   width: 100%;
-  padding: 1rem 3rem;
+  background: rgba(255, 0, 0, 0.9);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 2rem; }
+
+.box, .title-wrapper .w, .subtitle-wrapper .w, .text-wrapper .w, .section-wrapper .w, .post-tile-wrapper .w, .comment-wrapper .w {
+  width: calc(100% - 6.15rem);
+  padding: 0.75rem 3rem;
+  background: #171717;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: Ubuntu;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+.title, .title-wrapper .w {
+  font-size: 3rem;
+  border-radius: 2rem;
+  color: rgba(255, 255, 255, 0.9); }
+
+.subtitle, .subtitle-wrapper .w {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 1.75rem; }
+
+.title-wrapper {
+  background: rgba(255, 0, 0, 0.9); }
+
+.text-wrapper .w {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6); }
 
 /**RESETCSS**/
 html, body, div, span, applet, object, iframe,

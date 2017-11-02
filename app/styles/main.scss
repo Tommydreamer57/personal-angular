@@ -1,19 +1,25 @@
 
 @import "theme";
 
+ui-view {
+    width: 100%;
+}
+
 .app {
     background: $dark;
     min-height: 100vw;
     display: flex;
     flex-direction: column;
-    padding: 3rem 15vw;    
+    padding: 3rem 25vw;    
     .main {
         // background: blue;
+        width: 100%;
         color: white;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: stretch;
+        align-items: stretch;
+        align-content: stretch;
     }
 }
 
@@ -53,9 +59,11 @@
     }
     .navbar-wrapper:hover {
         .navbar-navbar {
+            // background: white;
             left: 0;
         }
         + .navbar-shadow {
+            // background: linear-gradient(90deg, white, $faded);
             left: 15rem;
             width: 100vw;
         }
@@ -64,11 +72,95 @@
 
 /**MAIN CLASSES**/
 
-.box {
+.home {
     width: 100%;
-    padding: 1rem 3rem;
+}
+
+.wrapper {
+    width: 100%;
+    background: $red9;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;    
+    // border-radius: 0.75rem;
+}
+
+.box {
+    width: calc(100% - 6.15rem);
+    padding: 0.75rem 3rem;
+    background: $dark;
+    color: $white9;
+    font-family: $fmain;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: $f3xlarge;
+    border-radius: 2rem;
+    color: $white9;
+}
+
+.subtitle {
+    font-size: $fxlarge;
+    color: $white7;
+    border-radius: 1.75rem;
+}
+
+.title-wrapper {
+    @extend .wrapper ;
+    background: $red9;
+    .w {
+        @extend .box ;
+        @extend .title ;
+    }
+
+}
+
+.subtitle-wrapper {
+    @extend .wrapper ;
+    // background: $red8;
+    .w {
+        @extend .box ;
+        @extend .subtitle ;
+    }
+}
+
+.text-wrapper {
+    @extend .wrapper ;
+    .w {
+        @extend .box ;
+        font-size: $fxsmall;
+        color: $white6;
+    }
+}
+
+.section-wrapper {
+    @extend .wrapper ;
+    // background: $red7;
+    .w {
+        @extend .box ;
+    }
+}
+
+.post-tile-wrapper {
+    @extend .wrapper ;
+    .w {
+        @extend .box ;
+    }
+}
+
+.comment-wrapper {
+    @extend .wrapper ;
+    .w {
+        @extend .box ;
+        // color: $white6;
+        // border-radius: 2rem;
+    }
 }

@@ -1,21 +1,33 @@
 <div class="post">
-    <div class="title-box">post</div>
-    <div class="post-box">
-        <div class="title">
+    <!-- <div class="title-wrapper">
+        <div class="w">
+            {{post.section}}
+        </div>
+    </div> -->
+    <div class="title-wrapper">
+        <div class="w">
             {{post.title}}
         </div>
-        <div class="subtitle">
+    </div>
+    <div class="subtitle-wrapper">
+        <div class="w">
             {{post.subtitle}}
         </div>
-        <div class="body">
+    </div>
+    <div class="text-wrapper">
+        <div class="w">
             {{post.body}}
         </div>
     </div>
-    <div class="comment-box">
-        <div class="comments" ng-repeat="comment in comments">
-            <div class="comment-header">
-                {{}}
-                {{comment.body}}
+    <div class="comment-wrapper">
+        <div class="w">
+            <div class="subtitle">
+             {{comments.length}} Comments
+            </div>
+            <div class="comments" ng-repeat="comment in comments">
+                <div class="comment-header">
+                    {{}} {{comment.body}}
+                </div>
             </div>
         </div>
     </div>
