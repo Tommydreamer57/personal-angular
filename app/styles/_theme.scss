@@ -1,0 +1,120 @@
+
+/**FONT IMPORTS**/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+/**FONTS**/
+
+$fmain: Ubuntu;
+$ftext: Hind;
+
+$f3xlarge: 3rem;
+$f2xlarge: 2.5rem;
+$fxlarge: 2rem;
+$flarge: 1.75rem;
+$fmedium: 1.5rem;
+$fsmall: 1.25rem;
+$fxsmall: 1rem;
+
+/**COLORS**/
+
+$darkest: #0D0D0D;
+$darker: #121212;
+$dark: #171717;
+$mediumdark: #1C1C1C;
+$medium: #262626;
+$light: #333;
+$lighter: #555;
+$lightest: #888;
+
+$faded: rgba(0, 0, 0, 0);
+$faded1: rgba(0, 0, 0, 1);
+$faded9: rgba(0, 0, 0, 0.9);
+$faded8: rgba(0, 0, 0, 0.8);
+$faded7: rgba(0, 0, 0, 0.7);
+$faded6: rgba(0, 0, 0, 0.6);
+$faded5: rgba(0, 0, 0, 0.5);
+$faded4: rgba(0, 0, 0, 0.4);
+$faded3: rgba(0, 0, 0, 0.3);
+$faded2: rgba(0, 0, 0, 0.2);
+$faded01: rgba(0, 0, 0, 0.1);
+
+$white1: rgba(255, 255, 255, 1);
+$white9: rgba(255, 255, 255, 0.9);
+$white8: rgba(255, 255, 255, 0.8);
+$white7: rgba(255, 255, 255, 0.7);
+$white6: rgba(255, 255, 255, 0.6);
+$white5: rgba(255, 255, 255, 0.5);
+$white4: rgba(255, 255, 255, 0.4);
+$white3: rgba(255, 255, 255, 0.3);
+$white2: rgba(255, 255, 255, 0.2);
+$white01: rgba(255, 255, 255, 0.1);
+$white001: rgba(255, 255, 255, 0.035);
+
+$blue1: rgba(90, 200, 255, 1);
+$blue9: rgba(90, 200, 255, 0.9);
+$blue8: rgba(90, 200, 255, 0.8);
+$blue7: rgba(90, 200, 255, 0.7);
+$blue6: rgba(90, 200, 255, 0.6);
+$blue5: rgba(90, 200, 255, 0.5);
+$blue4: rgba(90, 200, 255, 0.4);
+$blue3: rgba(90, 200, 255, 0.3);
+$blue2: rgba(90, 200, 255, 0.2);
+$blue01: rgba(90, 200, 255, 0.1);
+
+$green1: rgba(0, 255, 80, 1);
+$green9: rgba(0, 255, 80, 0.9);
+$green8: rgba(0, 255, 80, 0.8);
+$green7: rgba(0, 255, 80, 0.7);
+$green6: rgba(0, 255, 80, 0.6);
+$green5: rgba(0, 255, 80, 0.5);
+$green4: rgba(0, 255, 80, 0.4);
+$green3: rgba(0, 255, 80, 0.3);
+$green2: rgba(0, 255, 80, 0.2);
+$green01: rgba(0, 255, 80, 0.1);
+
+$red1: rgba(255, 0, 0, 1);
+$red9: rgba(255, 0, 0, 0.9);
+$red8: rgba(255, 0, 0, 0.8);
+$red7: rgba(255, 0, 0, 0.7);
+$red6: rgba(255, 0, 0, 0.6);
+$red5: rgba(255, 0, 0, 0.5);
+$red4: rgba(255, 0, 0, 0.4);
+$red3: rgba(255, 0, 0, 0.3);
+$red2: rgba(255, 0, 0, 0.2);
+$red01: rgba(255, 0, 0, 0.1);
+
+$yellow1: rgba(200, 190, 0, 1);
+$yellow9: rgba(200, 190, 0, 0.9);
+$yellow8: rgba(200, 190, 0, 0.8);
+$yellow7: rgba(200, 190, 0, 0.7);
+$yellow6: rgba(200, 190, 0, 0.6);
+$yellow5: rgba(200, 190, 0, 0.5);
+$yellow4: rgba(200, 190, 0, 0.4);
+$yellow3: rgba(200, 190, 0, 0.3);
+$yellow2: rgba(200, 190, 0, 0.2);
+$yellow01: rgba(200, 190, 0, 0.1);
+
+$purple1: rgba(100, 50, 220, 1);
+$purple9: rgba(100, 50, 220, 0.9);
+$purple8: rgba(100, 50, 220, 0.8);
+$purple7: rgba(100, 50, 220, 0.7);
+$purple6: rgba(100, 50, 220, 0.6);
+$purple5: rgba(100, 50, 220, 0.5);
+$purple4: rgba(100, 50, 220, 0.4);
+$purple3: rgba(100, 50, 220, 0.3);
+$purple2: rgba(100, 50, 220, 0.2);
+$purple01: rgba(100, 50, 220, 0.1);
+
+/**MEDIA QUERIES**/
+
+$querywide: 1000px;
+$querymediumwide: 850px;
+$querymedium: 740px;
+$querymediumthin: 650px;
+$querythin: 500px;
+
+/**ANIMATIONS**/
+
+

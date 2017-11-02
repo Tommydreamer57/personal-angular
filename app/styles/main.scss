@@ -1,0 +1,74 @@
+
+@import "theme";
+
+.app {
+    background: $dark;
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 15vw;    
+    .main {
+        // background: blue;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.navbar {
+    * {
+        font-family: $fmain;
+        color: white;
+    }
+    .navbar-wrapper {
+        .navbar-navbar {
+            background: black;
+            height: 100vh;
+            width: 15rem;
+            position: fixed;
+            top: 0;
+            left: -13.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            transition: left .8s;
+            transition-delay: .1s;
+            .navbar-button {
+
+            }
+        }
+    }
+    .navbar-shadow {
+        background: linear-gradient(90deg, black, $faded);
+        height: 100%;
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 1rem;
+        transition: left .8s, width .4s;
+        transition-delay: .1s;
+    }
+    .navbar-wrapper:hover {
+        .navbar-navbar {
+            left: 0;
+        }
+        + .navbar-shadow {
+            left: 15rem;
+            width: 100vw;
+        }
+    }
+}
+
+/**MAIN CLASSES**/
+
+.box {
+    width: 100%;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

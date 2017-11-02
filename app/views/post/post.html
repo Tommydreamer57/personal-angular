@@ -1,0 +1,22 @@
+<div class="post">
+    <div class="title-box">post</div>
+    <div class="post-box">
+        <div class="title">
+            {{post.title}}
+        </div>
+        <div class="subtitle">
+            {{post.subtitle}}
+        </div>
+        <div class="body">
+            {{post.body}}
+        </div>
+    </div>
+    <div class="comment-box">
+        <div class="comments" ng-repeat="comment in comments">
+            <div class="comment-header">
+                {{}}
+                {{comment.body}}
+            </div>
+        </div>
+    </div>
+</div>

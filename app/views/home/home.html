@@ -1,0 +1,9 @@
+<div class="home" ng-controller="homeController">
+    <div class="title-box">home</div>
+    <div class="section-box">
+        {{test}}
+        <div class="section" ng-repeat="section in sections">
+            <div class="title"><a ui-sref="section({name:'{{section}}'})">{{section}}</a></div>
+        </div>
+    </div>
+</div>

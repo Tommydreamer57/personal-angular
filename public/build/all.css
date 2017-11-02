@@ -1,0 +1,36 @@
+/**FONT IMPORTS**/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Hind");
+/**FONTS**/
+/**COLORS**/
+/**MARGINS**/
+/**MEDIA QUERIES**/
+/**ANIMATIONS**/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Hind");
+.navbar * {
+  font-family: Ubuntu; }
+
+.navbar .navbar-wrapper {
+  background: black;
+  height: 100vh;
+  width: 15rem;
+  position: fixed;
+  top: 0;
+  left: -13.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: left .8s;
+  transition-delay: .1s; }
+
+.navbar .navbar-shadow {
+  background: black; }
+
+/**FONT IMPORTS**/
+/**FONTS**/
+/**COLORS**/
+/**MARGINS**/
+/**MEDIA QUERIES**/
+/**ANIMATIONS**/

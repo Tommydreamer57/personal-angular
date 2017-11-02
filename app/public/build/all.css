@@ -1,0 +1,119 @@
+/**FONT IMPORTS**/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Hind");
+/**FONTS**/
+/**COLORS**/
+/**MEDIA QUERIES**/
+/**ANIMATIONS**/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Hind");
+.app {
+  background: #171717;
+  min-height: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 15vw; }
+  .app .main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+.navbar * {
+  font-family: Ubuntu;
+  color: white; }
+
+.navbar .navbar-wrapper .navbar-navbar {
+  background: black;
+  height: 100vh;
+  width: 15rem;
+  position: fixed;
+  top: 0;
+  left: -13.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  transition: left .8s;
+  transition-delay: .1s; }
+
+.navbar .navbar-shadow {
+  background: linear-gradient(90deg, black, transparent);
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 1rem;
+  transition: left .8s, width .4s;
+  transition-delay: .1s; }
+
+.navbar .navbar-wrapper:hover .navbar-navbar {
+  left: 0; }
+
+.navbar .navbar-wrapper:hover + .navbar-shadow {
+  left: 15rem;
+  width: 100vw; }
+
+/**MAIN CLASSES**/
+.box {
+  width: 100%;
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+/**RESETCSS**/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  text-decoration: none;
+  font-family: Calibri; }
+
+/**FONT IMPORTS**/
+/**FONTS**/
+/**COLORS**/
+/**MEDIA QUERIES**/
+/**ANIMATIONS**/
