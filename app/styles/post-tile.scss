@@ -1,0 +1,16 @@
+
+@import "theme";
+
+.post-tile {
+    margin: 1rem;
+    .wrapper {
+        .w {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .post-title {
+                font-size: $fmedium;
+            }
+        }
+    }
+}

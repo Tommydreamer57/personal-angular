@@ -1,12 +1,19 @@
-/**FONT IMPORTS**/
 @import url("https://fonts.googleapis.com/css?family=Ubuntu");
 @import url("https://fonts.googleapis.com/css?family=Hind");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Hind");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Hind");
+.comment-box {
+  width: 100% !important; }
+  .comment-box .comment-wrapper {
+    width: 100%; }
+
+/**FONT IMPORTS**/
 /**FONTS**/
 /**COLORS**/
 /**MEDIA QUERIES**/
 /**ANIMATIONS**/
-@import url("https://fonts.googleapis.com/css?family=Ubuntu");
-@import url("https://fonts.googleapis.com/css?family=Hind");
 ui-view {
   width: 100%; }
 
@@ -15,7 +22,7 @@ ui-view {
   min-height: 100vw;
   display: flex;
   flex-direction: column;
-  padding: 3rem 25vw; }
+  padding: 3rem 20vw; }
   .app .main {
     width: 100%;
     color: white;
@@ -62,7 +69,11 @@ ui-view {
 
 /**MAIN CLASSES**/
 .home {
-  width: 100%; }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .wrapper, .title-wrapper, .subtitle-wrapper, .text-wrapper, .section-wrapper, .post-tile-wrapper, .comment-wrapper {
   width: 100%;
@@ -73,9 +84,9 @@ ui-view {
   align-items: center;
   margin-bottom: 2rem; }
 
-.box, .title-wrapper .w, .subtitle-wrapper .w, .text-wrapper .w, .section-wrapper .w, .post-tile-wrapper .w, .comment-wrapper .w {
-  width: calc(100% - 6.15rem);
-  padding: 0.75rem 3rem;
+.box, .w, .title-wrapper .w, .subtitle-wrapper .w, .text-wrapper .w, .section-wrapper .w, .post-tile-wrapper .w, .comment-wrapper .w {
+  width: calc(100% - 4rem);
+  padding: 0.75rem 2rem;
   background: #171717;
   color: rgba(255, 255, 255, 0.9);
   font-family: Ubuntu;
@@ -96,13 +107,45 @@ ui-view {
   color: rgba(255, 255, 255, 0.7);
   border-radius: 1.75rem; }
 
-.title-wrapper {
-  background: rgba(255, 0, 0, 0.9); }
+.text {
+  font-size: 1rem;
+  font-family: Hind;
+  color: rgba(255, 255, 255, 0.6); }
 
 .text-wrapper .w {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.6); }
 
+.comment-wrapper .w {
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 2rem; }
+
+/**FONT IMPORTS**/
+/**FONTS**/
+/**COLORS**/
+/**MEDIA QUERIES**/
+/**ANIMATIONS**/
+.post-tile {
+  margin: 1rem; }
+  .post-tile .wrapper .w, .post-tile .title-wrapper .w, .post-tile .subtitle-wrapper .w, .post-tile .text-wrapper .w, .post-tile .section-wrapper .w, .post-tile .post-tile-wrapper .w, .post-tile .comment-wrapper .w {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .post-tile .wrapper .w .post-title, .post-tile .title-wrapper .w .post-title, .post-tile .subtitle-wrapper .w .post-title, .post-tile .text-wrapper .w .post-title, .post-tile .section-wrapper .w .post-title, .post-tile .post-tile-wrapper .w .post-title, .post-tile .comment-wrapper .w .post-title {
+      font-size: 1.5rem; }
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center; }
+
+/**FONT IMPORTS**/
+/**FONTS**/
+/**COLORS**/
+/**MEDIA QUERIES**/
+/**ANIMATIONS**/
 /**RESETCSS**/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -150,9 +193,3 @@ table {
 * {
   text-decoration: none;
   font-family: Calibri; }
-
-/**FONT IMPORTS**/
-/**FONTS**/
-/**COLORS**/
-/**MEDIA QUERIES**/
-/**ANIMATIONS**/
